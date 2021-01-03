@@ -7,3 +7,5 @@ Contains the solutions of the coding questions I have attempted and some belong 
 - Hackerrank
 - Hackerearth
 - Codeforces
+<br>
+Languages- C++ and Python3
