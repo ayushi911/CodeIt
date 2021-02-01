@@ -17,15 +17,18 @@ public:
         for(int i=0;i<32;++i){
             s+=to_string(v[i]);
         }
-        for(int i=0;i<count;++i){
-            t+=s[i];
-        }
-        for(int i=0;i<32-count;++i){
-            u+=to_string(0);
-        }
+        for(int i=0;i<count;++i){    //
+            t+=s[i];                 //   
+        }                            //   
+        for(int i=0;i<32-count;++i){ //
+            u+=to_string(0);         //
+        }                            //
         //cout<<count<<endl;
-       return u+t; 
+       return u+t;                   // can be just replaced by return s;   
     }
+    /*
+    This above will even work if instead of returning u+t we return only s, and this this will save the two extra for loops.
+    */
     int hammingWeight(uint32_t n) {
        //cout<<n<<endl; 
         string s;
