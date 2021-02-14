@@ -1,5 +1,5 @@
 // 785. Is graph bipartite?
-// QUES LINK: 
+// QUES LINK: https://leetcode.com/problems/is-graph-bipartite/
 //--------------------------------------------------SOLUTION--------------------------------------------------------
 class Solution {
 public:
