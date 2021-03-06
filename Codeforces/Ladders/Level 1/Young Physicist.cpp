@@ -1,4 +1,5 @@
 //Problem Link: http://codeforces.com/problemset/problem/69/A
+// Level 1 problems
 #include <iostream>
 using namespace std;
 
